@@ -1,10 +1,11 @@
 import React from 'react'
-import {Hero} from '../index'
+import {Hero, Hotbids} from '../index'
 
 function Home() {
   return (
     <div>
       <Hero />
+      <Hotbids />
     </div>
   )
 }
