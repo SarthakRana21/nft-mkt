@@ -5,6 +5,8 @@ import Hotbids from './Home/Hotbids/Hotbids'
 import HotbidCard from './Home/Hotbids/HotbidCard'
 import TopCollection from './Home/TopCollection/TopCollection'
 import TopCollectionCard from './Home/TopCollection/TopCollectionCard'
+import Category from './Home/Category/Category'
+import CategorySlider from './Home/Category/CategorySlider'
 
 export {
     ResponsiveNav,
@@ -13,5 +15,7 @@ export {
     Hotbids,
     HotbidCard,
     TopCollection,
-    TopCollectionCard
+    TopCollectionCard,
+    Category,
+    CategorySlider
 }
