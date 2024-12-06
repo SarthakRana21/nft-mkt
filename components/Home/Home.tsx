@@ -1,5 +1,5 @@
 import React from 'react'
-import {Hero, Hotbids, TopCollection, Category} from '../index'
+import {Hero, Hotbids, TopCollection, Category, CreateSellNft} from '../index'
 
 function Home() {
   return (
@@ -9,6 +9,7 @@ function Home() {
       <TopCollection />
       {/* not working react-multi-carousel */}
       {/* <Category />  */}
+      <CreateSellNft />
     </div>
   )
 }

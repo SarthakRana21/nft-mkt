@@ -7,6 +7,8 @@ import TopCollection from './Home/TopCollection/TopCollection'
 import TopCollectionCard from './Home/TopCollection/TopCollectionCard'
 import Category from './Home/Category/Category'
 import CategorySlider from './Home/Category/CategorySlider'
+import CreateSellNft from './Home/CreateSellNft/CreateSellNft'
+import CreateSellNftCard from './Home/CreateSellNft/CreateSellNftCard'
 
 export {
     ResponsiveNav,
@@ -17,5 +19,7 @@ export {
     TopCollection,
     TopCollectionCard,
     Category,
-    CategorySlider
+    CategorySlider,
+    CreateSellNft,
+    CreateSellNftCard,
 }
