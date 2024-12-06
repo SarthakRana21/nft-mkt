@@ -4,7 +4,7 @@ import {HotbidCard} from '@/components/index'
 
 const Hotbids = () => {
   return (
-    <div className='md:pt-16 pb-12'>
+    <div className='pt-16 pb-12'>
       <h1 className="text-center font-bold text-3xl p-2 md:text-4xl text-blue-950">
         HotBids
       </h1>

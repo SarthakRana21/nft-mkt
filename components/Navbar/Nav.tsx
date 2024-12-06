@@ -12,7 +12,7 @@ type Props = {
 function Nav({navHandler}:Props) {
 
   return (
-    <div className="w-full h-[11vh] fixed z-[99] bg-white mt-[-1px]">
+    <div className="w-full h-[11vh] fixed z-[99] bg-white mt-[-1px] top-0">
       <div className="w-[95%] sm:w-[85%] md:w-[80%] h-full mx-auto flex items-center justify-between">
         {/* Logo */}
         <Image src="/images/logo.png" alt="logo" width={180} height={180} />

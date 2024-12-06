@@ -3,12 +3,12 @@ import Image from 'next/image'
 
 function Hero () {
   return (
-    <div className='h-[calc(100vh-13vh)] w-full flex justify-center flex-col'>
+    <div className='mt-[10rem] md:mt-[9rem] lg:mt-[10rem] w-full flex justify-center flex-col'>
       <div className="w-4/5 mx-auto items-center grid lg:grid grid-cols-1 lg:grid-cols-5 gap-8">
 
         {/* Image */}
-        <div className="flex justify-center lg:col-span-3 md:pt-[7rem] lg:pt-[0]">
-          <Image src={'/images/hero2.png'} alt='' width={700} height={700} className='sm:w-[80%]'/>
+        <div className="flex justify-center lg:col-span-3">
+          <Image src={'/images/hero2.png'} alt='' width={700} height={700} />
         </div>
         {/* text content */}
         <div className="col-span-2">
