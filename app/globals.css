@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .footer__title {
+        @apply text-lg text-black font-semibold mb-6
+    }
+    .footer__link {
+        @apply text-sm text-gray-600 mb-4 font-medium hover:text-blue-600
+    }
+}

@@ -9,6 +9,7 @@ import Category from './Home/Category/Category'
 import CategorySlider from './Home/Category/CategorySlider'
 import CreateSellNft from './Home/CreateSellNft/CreateSellNft'
 import CreateSellNftCard from './Home/CreateSellNft/CreateSellNftCard'
+import Footer from './Home/Footer/Footer'
 
 export {
     ResponsiveNav,
@@ -22,4 +23,5 @@ export {
     CategorySlider,
     CreateSellNft,
     CreateSellNftCard,
+    Footer
 }
