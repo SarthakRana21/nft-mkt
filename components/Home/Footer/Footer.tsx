@@ -7,7 +7,7 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <div className='py-12'>
-        <div className="w-4/5 mx-auto grid grid-cols-1 border-b-[1.5px] border-b-stale-300 pb-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 items-start">
+        <div className="w-4/5 mx-auto grid grid-cols-1 border-b-[1.5px] border-b-stale-300 pb-8 md:grid-cols-2 xl:grid-cols-4 gap-8 items-start">
             <div className="">
                 <div className="text-2xl text-red-700 font-semibold mb-4 ">NFTFY Shop</div>
                 <p className="text-sm text-gray-700 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ad.</p>
