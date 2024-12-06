@@ -27,7 +27,7 @@ const responsive = {
 
 const CategorySlider = () => {
   return (
-    <div>
+    <div className='w-full h-auto'>
         <Carousel 
         swipeable={false}
         draggable={false}
@@ -39,7 +39,6 @@ const CategorySlider = () => {
         responsive={responsive} 
         centerMode={false} 
         infinite>
-
             {HotBidData.map(data => (
             <div key={data.id}><HotbidCard data={data}/></div>
             ))}

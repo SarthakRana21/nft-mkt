@@ -7,7 +7,8 @@ function Home() {
       <Hero />
       <Hotbids />
       <TopCollection />
-      <Category />
+      {/* not working react-multi-carousel */}
+      {/* <Category />  */}
     </div>
   )
 }
