@@ -1,6 +1,5 @@
 'use client'
 import React from 'react'
-import Tilt from 'react-parallax-tilt'
 import Image from 'next/image'
 
 type Props = {
