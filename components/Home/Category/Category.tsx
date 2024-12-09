@@ -1,5 +1,9 @@
+'use client'
+
 import React from 'react'
-import CategorySlider from './CategorySlider'
+import dynamic from 'next/dynamic';
+const CategorySlider = dynamic(() => import('./CategorySlider'), { ssr: false });
+
 
 const Category = () => {
   return (
