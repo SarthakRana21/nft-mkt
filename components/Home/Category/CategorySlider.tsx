@@ -6,17 +6,26 @@ import "react-multi-carousel/lib/styles.css";
 import {HotbidCard} from '@/components/index';
 
 const responsive = {
-  superLargeDesktop: {
+
+  doubleExtraLarge: {
     // the naming can be any, depends on you.
-    breakpoint: { max: 1280, min: 1024 },
+    breakpoint: { max: 4280, min: 2280 },
+    items: 6
+  },
+  extraLarge: {
+    breakpoint: { max: 2280, min: 1540 },
     items: 5
   },
+  superLargeDesktop: {
+    breakpoint: { max: 1540, min: 1230 },
+    items: 4
+  },
   desktop: {
-    breakpoint: { max: 1024, min: 768 },
+    breakpoint: { max: 1180, min: 940 },
     items: 3
   },
   tablet: {
-    breakpoint: { max: 768, min: 640 },
+    breakpoint: { max: 940, min: 640 },
     items: 2
   },
   mobile: {
@@ -29,9 +38,7 @@ const CategorySlider = () => {
   return (
     <div className='w-full h-auto'>
         <Carousel 
-        swipeable={false}
-        draggable={false}
-        showDots={true}
+        itemAriaLabel='true'
         additionalTransfrom={0} 
         arrows={true} 
         autoPlay={true} 
