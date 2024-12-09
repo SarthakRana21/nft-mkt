@@ -7,9 +7,14 @@ import {HotbidCard} from '@/components/index';
 
 const responsive = {
 
+  doubleExtraLarge: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4280, min: 2280 },
+    items: 6
+  },
   extraLarge: {
     // the naming can be any, depends on you.
-    breakpoint: { max: 3280, min: 1540 },
+    breakpoint: { max: 2280, min: 1540 },
     items: 5
   },
   superLargeDesktop: {
